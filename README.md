@@ -13,6 +13,10 @@ This project focuses on clean UI design, smooth navigation, and interactive elem
 - Animated elements for better user experience
 - Clean, readable, and well-structured code
 
+## 📸 Preview
+
+<img width="1886" height="914" alt="Screenshot 2026-02-27 030036" src="https://github.com/user-attachments/assets/b5bc652e-416d-44bb-b4cb-15f5b15f7de3" />
+
 ## 🛠 Tech Stack
 - HTML5
 - CSS3
@@ -25,5 +29,48 @@ prodigy-landing-page/
 │── style.css
 │── script.js
 │── README.md
+```
+⚙️ Installation & Usage
+
+Clone the repository
+```text
+git clone : https://github.com/your-username/prodigy-landing-page.git
+```
+Open index.html in your browser
+```text
+cd prodigy-landing-page
+```
+Open index.html in your browser.
+
+🎯 Use Cases
+
+Personal portfolio landing page
+
+Business or startup website
+
+Front-end development practice
+
+Internship and resume showcase
+
+🔮 Future Improvements
+
+Add dark mode support
+
+Enhance animations and transitions
+
+Add a contact form with validation
+
+Deploy the project using GitHub Pages
+
+
+
+👤 Author
+
+Faizan-Fatmi
+GitHub: https://github.com/faizanfatmi
+
+📜 License
+
+This project is licensed under the MIT License.
 
 

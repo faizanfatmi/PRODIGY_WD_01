@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Prodigy</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="section section-hero">
+        <div class="section-content">
+            <h1>Welcome to Prodigy</h1>
+            <p>Scroll down to see the navigation transform</p>
+            <a href="#about" class="cta-btn">Explore More</a>
+        </div>
+    </section>
+
+    <section id="about" class="section section-about">
+        <div class="section-content">
+            <h2>About Us</h2>
+            <p>We craft digital experiences that inspire. Our team blends creativity with cutting-edge technology to deliver solutions that make a real impact.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section section-services">
+        <div class="section-content">
+            <h2>Our Services</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful interfaces that users love</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Development</h3>
+                    <p>Fast, scalable, and reliable code</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>Strategy</h3>
+                    <p>Data-driven growth strategies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section section-portfolio">
+        <div class="section-content">
+            <h2>Portfolio</h2>
+            <p>A showcase of our finest work across industries and platforms, demonstrating our commitment to excellence and innovation.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-contact">
+        <div class="section-content">
+            <h2>Get in Touch</h2>
+            <p>Ready to start your next project? Let's build something extraordinary together.</p>
+            <a href="mailto:hello@prodigy.com" class="cta-btn">Contact Us</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
